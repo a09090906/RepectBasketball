@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Builder
 @Document(collection = "AccountList")
 public class AccountListModel {
-    public Object _id;
+    public String _id;
     public String Account;
     public String Password;
     public String Name;
